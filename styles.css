@@ -2,8 +2,32 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+
 .header-container {
     background-color: #1F2937;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 125px;
+}
+
+.header-container .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-container .links a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 20px;
 }
 
 .hero-container {
