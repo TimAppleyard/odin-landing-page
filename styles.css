@@ -14,7 +14,7 @@ body {
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px 125px;
+    padding: 10px 500px;
 }
 
 .header-container .logo{
@@ -32,6 +32,50 @@ body {
 
 .hero-container {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 500px;
+}
+
+.hero-container .hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+.hero-container .hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 500px;
+}
+
+.hero-container .awesome-website{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-container .awesome-website-subtext{
+    display:flex;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+}
+
+.hero-container .awesome-sign-up-button button{
+    display: flex;
+    background-color: #3882F6;
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    outline: none;
 }
 
 .quote-container {
