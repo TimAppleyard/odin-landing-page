@@ -67,10 +67,9 @@ body {
 }
 
 .hero-container .awesome-sign-up-button button {
-    display: flex;
     background-color: #3882F6;
     margin: 0px;
-    padding: 5px 20px;
+    padding: 7px 20px;
     border-radius: 10px;
     color: #E5E7EB;
     font-weight: bold;
@@ -133,6 +132,39 @@ body {
     justify-content: flex-end;
     font-size: 24px;
     font-weight: 900;
+}
+
+.call-to-action-container {
+    padding: 50px 500px;
+}
+
+.call-inner-container {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+.call-title {
+    font-size: 22px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.call-subtext {
+    color: #E5E7EB;
+}
+
+.call-inner-container button {
+    background-color: #3882F6;
+    margin: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-color: #E5E7EB;
+    outline: none;
 }
 
 .footer-container {
